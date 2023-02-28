@@ -54,13 +54,12 @@ const Home = () => {
                     </div>
 
                     <div className="priceInput">
-                        <label htmlFor="city">Search your destination:</label>
                         <div className="label_total flex">
                             <label htmlFor="price">Max price:</label>
                             <h3 className="total">99,999€</h3>
                         </div>
                         <div className="input flex">
-                            <input type="range" max="99,999" min="59,999" />
+                            <input type="range" max="99,999" min="0" />
                         </div>
                     </div>
 
@@ -71,13 +70,13 @@ const Home = () => {
                 </div>
 
                 <div data-aos="fade-up" className="homeFooterIcons flex">
-                    <div className="rightIcons">
+                    <div data-aos="fade-up" className="rightIcons">
                         <SlSocialFacebook className="icon" />
                         <SlSocialInstagram className="icon" />
                         <SiTripadvisor className="icon" />
                     </div>
 
-                    <div className="leftIcons">
+                    <div data-aos="fade-up" className="leftIcons">
                         <BsListUl className="icon" />
                         <TbApps className="icon" />
                     </div>

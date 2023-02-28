@@ -122,4 +122,56 @@
 .header .toggleNavbar:hover.icon {
   color: var(--whiteColor);
 }
+
+@media screen and (min-width: 768px) {
+  .toggleNavbar, .closeNavbar {
+    display: none;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  .header .navBar .navLists {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .header .navBar .navItem {
+    color: var(--textColor);
+    padding: 0 0.45rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .header .navBar .navItem:hover {
+    color: var(--PrimaryColor);
+  }
+  .header .navBar .btn {
+    margin-left: 1rem;
+  }
+  .header .navBar .btn a {
+    color: var(--whiteColor);
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .header .navBar .navLists .navItem {
+    padding: 0 0.7rem;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .header {
+    padding: 1rem 8.5rem;
+  }
+}
 /*# sourceMappingURL=navbar.css.map */

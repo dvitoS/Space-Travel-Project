@@ -55,7 +55,7 @@ const Data = [
         location: 'Solar system',
         grade: 'Safe',
         fees: '15.000€',
-        description: "Earths moon",
+        description: "The Moon is Earth's only natural satellite (a celestial body that orbits a planet). It takes the Moon 27.3 days to make a complete orbit around the Earth, but because the Earth is moving around the sun at the same time, it takes the moon 29.5 days to go through its eight different 'phases' – a lunar month.",
 
     },
 
@@ -86,7 +86,7 @@ const Main = () => {
     return(
         <section className="main container section">
                 <div className="secTitle">
-                    <h3 className="title">
+                    <h3 data-aos="fade-right" className="title">
                         Most visited destinations
                     </h3> 
                 </div>
